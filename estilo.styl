@@ -1,0 +1,79 @@
+*
+    margin: 0;
+    padding:0;
+/*Headings*/
+a{text-decoration: none;}
+a:hover{text-decoration: none;}     
+/*Buttons*/
+.button1
+    border: 0.1rem solid #673ab7;
+    border-radius: 1.8rem;
+    color: #673ab7;    
+    padding: 1rem;
+    position: relative;
+    top: 0.90rem;
+.button1:hover
+    background-color: #673ab7;
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+/*menu*/    
+.navbar
+    background-color: #fff!important;
+    position: fixed!important;
+    width: 100%;
+    z-index: 1;
+.navbar-light .navbar-toggler
+    border: none!important;
+/*Sidebar*/    
+.list-unstyled li a
+    color: #333;
+    padding: 0.90rem;
+    text-decoration: none;
+/*Header*/
+header
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    width: 100%;
+header .container
+    padding: 6rem 0;
+header h2
+    color: rgba(255, 255, 255, 0.88);
+    font-family: 'Satisfy', cursive;
+    font-size: 3.6rem;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg)
+    text-align: center;
+@media(min-width: 55rem)
+    header .container
+        padding: 8rem 0;
+    header h2
+        font-size: 8rem;
+/*Sections*/        
+section .container
+    padding: 1rem 0;
+section p
+    font-family: 'Josefin Sans', sans-serif;
+.clean h3
+    color: rgb(113, 103, 130);
+@media(min-width: 55rem)
+    section .container
+        padding: 5rem 0;
+    section h3
+        font-size: 3em;   
+/*div meio*/        
+.meio
+    margin: 0 auto;
+    width: 90%;
+.no-scroll
+    overflow: hidden;
+.role    
+    height: 50vh;
+    overflow-y: scroll;   
+@media(min-width: 55rem)
+    .meio
+        width: 75%;
+    .no-scroll
+        height: 60vh;
+        
